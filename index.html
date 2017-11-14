@@ -9,37 +9,47 @@
 <meta charset="UTF-8">
 </head>
 
-<body>
-    <!-- headline -->
-    <h1> Haig Bedros</h1>
+<header>
+    <div class="header-container">
+    <!-- headline --> 
+    <h1 class="header-text"> Haig Bedros</h1>
 
-    <!-- links table -->
-    <div>
-    <a style="text-decoration-line: none" href="index.html">About</a>
-    <a style="text-decoration-line: none" href="portfolio.html">Portfolio</a>
-    <a style="text-decoration-line: none" href="contact.html">Contact</a>
+    <!-- pages table -->
+    <div class="nav-list">
+        <ul class="nav-items">
+            <li style="list-style: none;" class="nav-li"> <a style="text-decoration-line: none" "decoration: none" href="index.html">About</a></li>
+            <li class="nav-li"> <a style="text-decoration-line: none" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-li"> <a style="text-decoration-line: none" href="contact.html">Contact</a> </li>    
+        </ul>
     </div>
+    </div>
+</header>
 
+<body>
     <!-- body -->
-    <div>
+    <div class="about">
     <h2>About Me</h2>
+    </div>
+    
+    <div class="img">
+    <img src="assets/images/download.png" width="200" height="200" alt="Haig Bedros picture">
 
-    <img src="assets/images/download.png" width="300" height="300" alt="Haig Bedros picture">
-
-    <p>I wake up and I have an onion bagel with cream cheese with some crushed peppers, 
+    <p> I wake up and I have an onion bagel with cream cheese with some crushed peppers, 
         sided with honey yogurt, some blueberry and granola. 
-        Of course, with a hot cup of coffee. 
+        Of course, with a hot cup of coffee.<br>
+        <br>
         I work remotely for PicsArt as a Localization Specialist. I'm Responsible for the localization 
         (translation & cultural adaptation) of assigned 
         console and handheld descriptions, notifications and blogs from English to Arabic, 
-        adapting texts to strict character limits while retaining original meaning and flavor as much as possible.
+        adapting texts to strict character limits while retaining original meaning and flavor as much as possible.<br>
+        <br>
         So work and studying are my first hours activity of the day and then I head out to my daily workout. 
         I've been working out for a few years and it became part of my dailey routine. 
     </p>
     </div>
 
     <!-- social -->
-    <div>
+    <div class="social">
     <h3>Connect With Me</h3>
 
     <a href="https://github.com/hbedros" target="_blank"><img width="50" height="50" src="assets/images/github.png" alt="github profile"></a>
@@ -47,12 +57,10 @@
     <a href="https://www.linkedin.com/in/haig-bedros-5b963510b/" target="_blank"><img width="50" height="50" src="assets/images/linkedin.png" alt="linkedin profile"></a>
     </div>
 
-<footer>
     <!-- copyrigth -->
-    <div>
-    <p>© copyright hbedros</p>
-    </div>
-</footer>
+    <footer class="footer">
+    © copyright hbedros
+    </footer>
 
 </body>
 </html>
