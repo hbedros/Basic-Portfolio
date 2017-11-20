@@ -78,12 +78,11 @@ header {
     }
 
     .box-set {
-        position: relative;
         float: left;
         width: 650px;
         background-color: #ffffff;
         clear: both;
-        margin-bottom: 150px;
+        height: 700px;
         align-content: center;
     }
 
@@ -94,7 +93,7 @@ header {
 
     .box-1, .box-2, .box-3, .box-4 {
         display: inline-block;
-        height: 275px;
+        height: 300px;
         width: 275px;
         margin: auto;
     }
@@ -103,7 +102,7 @@ header {
         width: 225px;
         height: 35px;
         color: white;
-        z-index: 998;
+        z-ind/ex: 998;
         background-color: #4aaaa5;
         text-align: center;
         padding-top: 15px;
