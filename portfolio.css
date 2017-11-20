@@ -78,6 +78,7 @@ header {
     }
 
     .box-set {
+        position: relative;
         float: left;
         width: 650px;
         background-color: #ffffff;

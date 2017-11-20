@@ -79,6 +79,7 @@ header {
 
     .box {
         float: left;
+        position: relative;
         background-color: #ffffff;
         width: 650px;
         border-style: solid;
@@ -108,6 +109,16 @@ header {
         height: 20px;
         margin-bottom: 10px;
     }
+    
+    
+    .message {
+        width: 605px;
+        display: inline-block;
+        padding: 5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
     
     .submit-button {
         background-color: #4aaaa5;
