@@ -92,7 +92,6 @@ header {
     }
 
     .box-1, .box-2, .box-3, .box-4 {
-        position: relative;
         display: inline-block;
         height: 275px;
         width: 275px;
@@ -151,6 +150,7 @@ header {
 
     .footer {
             position: fixed;
+            clear: both;
             width: 100%;
             padding-top: 20px;
             padding-bottom: 20px;
