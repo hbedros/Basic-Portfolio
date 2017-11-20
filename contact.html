@@ -9,51 +9,58 @@
 <meta charset="UTF-8">
 </head>
 
-<header>
-    <section class="header-container">
-    <!-- headline --> 
-    <div>
-    <h1> Haig Bedros</h1>
-    </div>
-
-    <!-- pages table -->
-    <div class="nav-list">
-        <div>
-            <a style="text-decoration-line: none" href="index.html">About |</a>
-            <a style="text-decoration-line: none" href="portfolio.html">Portfolio |</a>
-            <a style="text-decoration-line: none" href="contact.html">Contact</a>
-        </div>    
-    </section>
-</header>
 
 <body>
+
+<header>
+        <section class="container">
+        <!-- headline --> 
+        <div class="my-name">
+        <h1> Haig Bedros</h1>
+        </div>
+    
+        <!-- pages table -->
+        <div class="nav-list">
+            <div>
+                <a style="text-decoration-line: none" href="index.html">About |</a>
+                <a style="text-decoration-line: none" href="portfolio.html">Portfolio |</a>
+                <a style="text-decoration-line: none" href="contact.html">Contact</a>
+            </div>    
+        </section>
+    </header>
+
+<!-- form -->
+
 <div class="content">
+        
+        <div class="box">
+            <div class="contact-name">
+            <h2>Contact</h2>
+            </div>
+
+            <div class="form-content">
+            <form class ="contact-form" action="https://mail.google.com/" method="post">
+                
+                    Name: 
+                    <br> 
+                    <input class="name-field" type="text" name="Name">
+                    <br>
     
-    <div class="box">
+                    Email:
+                    <br>
+                    <input class="email-field" type="email" name="Email">
+                    <br>
     
-        <h2>Contact</h2>
+                    Message:
+                    <br>
+                    <textarea class="message-field" name="Message" rows="25" cols="106%"></textarea>
+                    <br>
     
-        <form class ="contact-form" action="https://mail.google.com/" method="post">
-            
-                Name: 
-                <br> 
-                <input class="name-field" type="text" name="Name">
-                <br>
-
-                Email:
-                <br>
-                <input class="email-field" type="email" name="Email">
-                <br>
-
-                Message:
-                <br>
-                <textarea class="message-field" name="Message" rows="25" cols="99"></textarea>
-                <br>
-
-                <input class="submit-button" type="submit" value="Submit">
-        </form>
-
-    </div>
+                    <input class="submit-button" type="submit" value="Submit">
+            </form>
+            </div>
+    
+        </div>
 
     <section class="social">
     
@@ -61,23 +68,21 @@
     <h3>Connect With Me</h3>
     
     <div class="icons">
-    <a href="https://github.com/hbedros" target="_blank"> <img width="50" height="50" src="assets/images/github.png" alt="github profile"></a>
+    <a href="https://github.com/hbedros" target="_blank"><img width="50" height="50" src="assets/images/github.png" alt="github profile"></a>
     <a href="https://stackoverflow.com/users/8550101/haig-bedros" target="_blank"><img width="50" height="50" src="assets/images/stack.png" alt="stack overflow profile"></a>
     <a href="https://www.linkedin.com/in/haig-bedros-5b963510b/" target="_blank"><img width="50" height="50" src="assets/images/linkedin.png" alt="linkedin profile"></a>
     </div>
-
     </div>
     </section>
 
 </div>
-</body>
 
-    <!-- copyrigth -->
-    <footer class="footer">
+<!-- copyrigth -->
+<footer class="footer">
     <div class="footer-content">
     © copyright hbedros
     </div>
     </footer>
 
-
+</body>
 </html>
